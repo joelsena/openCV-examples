@@ -1,8 +1,8 @@
 import cv2
 
 imagem = cv2.imread('entrada.jpg')
-#imagem.shape[0] representa a altura da imagem
-#imagem.shape[1] representa a largura da imagem
+#imagem.shape[0] representa a altura da imagem ou linhas
+#imagem.shape[1] representa a largura da imagem ou colunas
 
 for y in range(0, imagem.shape[0], 10):
     for x in range(0, imagem.shape[1], 10):
